@@ -1,0 +1,24 @@
+  <h1 id="Projects"> Projects </h1>
+
+            <h2>In University</h2>
+            <strong>'못난이 농작물 거래 플랫폼' (Ugly Crop Trade Platfrom)</strong>
+            <ul>
+                <li>Ugly Agricultural Trade Platfrom SoftWare Designing</li>
+                <li>The Purpose is to reduce food wate and revitalize the argricultural market</li>
+                <li>Program Designed by java</li>
+                <li>Technical Analysis(Development Costs,Operational Costs, Tangible Benefit, InTangible Benefits) </li>
+                <li>Economical Analysis(By Calculating NPV, ROI, Break-Even-Points) </li>
+                <li>Organizational Anaylysis(Strategic alignmen, Stakeholder Analysis)</li>
+                <li>Project Estimation (Calculated By Total Unadjusted Function Points(TUFP), Processing Complexity(PC))
+                </li>
+                <li>Work Plan is written through Gantt and PERT chart</li>
+                <li>Used Class Diagram, Use Case Diagram and Sequence Diagram</li>
+                <li>Collaborate with team through GitHub</li>
+            </ul>
+            <strong>'뱀 성장 게임' (Snail Growth Game) </strong>
+            <ul>
+                <li>Snail Growth Game programming in Linux System Programming</li>
+                <li>Tail grows on food and decreases when eat Poison</li>
+                <li>Game control through Signals</li>
+                <li>Collaborate with team through GitHub</li>
+            </ul>
