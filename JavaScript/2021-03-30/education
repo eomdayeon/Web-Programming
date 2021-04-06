@@ -1,0 +1,27 @@
+<h1 id="Education">Education</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Major</th>
+                        <th>Term</th>
+                        <th>Graduate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dong-moon High School</td>
+                        <td>Natural Sciences</td>
+                        <td>2016.03 ~ 2019.02</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Kyung-pook National University</td>
+                        <td>Computer Science Engineering</td>
+                        <td>2019.03~ </td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+
+            </table>

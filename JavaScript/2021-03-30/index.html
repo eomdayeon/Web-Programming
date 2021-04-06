@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eom da yeon</title>
+    <style>
+        #title {
+            font-size: 4rem;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0;
+        }
+
+        #list {
+            border-right: 1px solid gray;
+            width: 150px;
+            margin: 0;
+            padding-top: 20px;
+            height: 1310px;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 191px 1fr;
+        }
+
+        #article {
+            padding-left: 20px;
+        }
+
+        table {
+            border: 1px solid gray;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid gray;
+            padding: 6px;
+        }
+    </style>
+    <script type ="text/javascript" src= "js/fetch.js"> </script>
+</head>
+
+
+<body>
+    <h1 id="title">Resume</h1>
+    <div id="grid">
+        <div>
+            <ul id="list">
+                <li> <a href="#" onclick= "fetchPage('aboutme');">About me</a></li>
+                <li> <a href="#" onclick= "fetchPage('education');">Education</a></li>
+                <li> <a href="#" onclick= "fetchPage('awards');">Awards</a></li>
+                <li> <a href="#" onclick= "fetchPage('projects');">Projects</a></li>
+
+            </ul>
+
+        </div>
+
+        <div id="article">
+            <h1 id="Aboutme">About me</h1>
+            <img src="image/profile.jpg" width="200" height="200">
+            <p>Eom da yeon</p>
+            <p>Interestd in Solving Argorithm Problem, Machine Learning, Front-end, etc. <br>Studying C, Python, java
+            </p>
+            <a href="https://github.com/eomdayeon"><img src="image/github.png" width="64" height="64"></a>
+            <a href="https://www.instagram.com/yeoniiy/"><img src="image/instagram.png" width="64" height="64"></a>
+            <a href="https://www.facebook.com/dayeon7142/"><img src="image/facebook.png" width="64" height="64"></a>
+
+            <h1 id="Education">Education</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Major</th>
+                        <th>Term</th>
+                        <th>Graduate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dong-moon High School</td>
+                        <td>Natural Sciences</td>
+                        <td>2016.03 ~ 2019.02</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>Kyung-pook National University</td>
+                        <td>Computer Science Engineering</td>
+                        <td>2019.03~ </td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <h1 id="Awards"> Awards</h1>
+            <p>2020.04 '비교과 프로그램 아이디어 공모전(Program Idea Contest)' <br></p>
+
+            <h1 id="Projects"> Projects </h1>
+
+            <h2>In University</h2>
+            <strong>'못난이 농작물 거래 플랫폼' (Ugly Crop Trade Platfrom)</strong>
+            <ul>
+                <li>Ugly Agricultural Trade Platfrom SoftWare Designing</li>
+                <li>The Purpose is to reduce food wate and revitalize the argricultural market</li>
+                <li>Program Designed by java</li>
+                <li>Technical Analysis(Development Costs,Operational Costs, Tangible Benefit, InTangible Benefits) </li>
+                <li>Economical Analysis(By Calculating NPV, ROI, Break-Even-Points) </li>
+                <li>Organizational Anaylysis(Strategic alignmen, Stakeholder Analysis)</li>
+                <li>Project Estimation (Calculated By Total Unadjusted Function Points(TUFP), Processing Complexity(PC))
+                </li>
+                <li>Work Plan is written through Gantt and PERT chart</li>
+                <li>Used Class Diagram, Use Case Diagram and Sequence Diagram</li>
+                <li>Collaborate with team through GitHub</li>
+            </ul>
+            <strong>'뱀 성장 게임' (Snail Growth Game) </strong>
+            <ul>
+                <li>Snail Growth Game programming in Linux System Programming</li>
+                <li>Tail grows on food and decreases when eat Poison</li>
+                <li>Game control through Signals</li>
+                <li>Collaborate with team through GitHub</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

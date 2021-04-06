@@ -1,0 +1,8 @@
+  <h1 id="Aboutme">About me</h1>
+            <img src="image/profile.jpg" width="200" height="200">
+            <p>Eom da yeon</p>
+            <p>Interestd in Solving Argorithm Problem, Machine Learning, Front-end, etc. <br>Studying C, Python, java
+            </p>
+            <a href="https://github.com/eomdayeon"><img src="image/github.png" width="64" height="64"></a>
+            <a href="https://www.instagram.com/yeoniiy/"><img src="image/instagram.png" width="64" height="64"></a>
+            <a href="https://www.facebook.com/dayeon7142/"><img src="image/facebook.png" width="64" height="64"></a>
